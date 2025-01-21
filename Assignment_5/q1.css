@@ -1,0 +1,30 @@
+header, footer{
+    background-color: aqua;
+    text-align: center;
+  
+    padding: 25px;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left , .right{
+    flex: 1;
+    padding: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+@media (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+}

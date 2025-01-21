@@ -1,0 +1,31 @@
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main-div{
+    margin: 100px 200px 100px 200px;
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    background-color: aliceblue;
+    padding: auto;
+    row-gap: 50px;
+    justify-content: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.image{
+    padding: 50px;
+    justify-content: center;
+   
+    
+}
+
+.image:hover{
+    transform: scale(1.05);
+}
+
