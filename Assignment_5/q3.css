@@ -9,7 +9,7 @@ header{
     margin: 100px 200px 100px 200px;
     display: grid;
     grid-template-columns:auto auto auto ;
-    background-color: aliceblue;
+    
     padding: auto;
     row-gap: 50px;
     justify-content: center;
@@ -17,15 +17,23 @@ header{
     flex-wrap: wrap;
     
 }
-
+.text {
+    position: absolute;
+    bottom: 60px;
+    left: 45%;
+    
+  } 
 .image{
     padding: 50px;
-    justify-content: center;
-   
-    
+    color: black;
+    position: relative; 
+    text-align: center;
+    color: transparent; 
 }
 
 .image:hover{
     transform: scale(1.05);
+    color: red;
+    
 }
 
