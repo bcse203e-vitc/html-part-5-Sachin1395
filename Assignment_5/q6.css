@@ -1,0 +1,57 @@
+body {
+    
+    
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    animation: colorChange 3s infinite alternate, moveText 5s infinite ease-in-out;
+  }
+  
+
+  @keyframes colorChange {
+    0% {
+      color: #fff;
+    }
+    50% {
+      color: #ff5733;
+    }
+    100% {
+      color: #6aff3d;
+    }
+  }
+  
+
+  @keyframes moveText {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+
+  .cta-button {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background: aquamarine;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: white;
+    color: #2575fc;
+    transform: scale(1.1);
+  }
+  

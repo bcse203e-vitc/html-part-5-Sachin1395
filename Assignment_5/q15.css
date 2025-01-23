@@ -1,0 +1,26 @@
+.header {
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(to right, #ffef5f, #e6fe7b); 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); 
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}

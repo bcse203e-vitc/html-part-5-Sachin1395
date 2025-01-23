@@ -1,0 +1,53 @@
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+.plan {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+.plan ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.plan ul li {
+    font-size: 16px;
+    color: #555;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.plan button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.plan button:hover {
+    background-color: #0056b3;
+}
+
+.plan.popular {
+    background-color: #ffefd5;
+    border-color: #ffa500;
+}
+
+.plan.popular h2 {
+    color: #ff8c00;
+}
